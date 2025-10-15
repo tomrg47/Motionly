@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36603.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Motionly.Web", "Motionly.Web\Motionly.Web.csproj", "{C692ED7D-119E-4793-8B3C-BCBBF98F0B28}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0EB9CD13-A7EB-48EE-8D4D-6B07F058541C} = {0EB9CD13-A7EB-48EE-8D4D-6B07F058541C}
+		{AAD09569-D8F7-449A-ADF5-9E3C4CD61DB7} = {AAD09569-D8F7-449A-ADF5-9E3C4CD61DB7}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Motionly.Models", "Motionly.Models\Motionly.Models.csproj", "{0EB9CD13-A7EB-48EE-8D4D-6B07F058541C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Motionly.Core", "Motionly.Core\Motionly.Core.csproj", "{AAD09569-D8F7-449A-ADF5-9E3C4CD61DB7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C692ED7D-119E-4793-8B3C-BCBBF98F0B28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C692ED7D-119E-4793-8B3C-BCBBF98F0B28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C692ED7D-119E-4793-8B3C-BCBBF98F0B28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C692ED7D-119E-4793-8B3C-BCBBF98F0B28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EB9CD13-A7EB-48EE-8D4D-6B07F058541C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EB9CD13-A7EB-48EE-8D4D-6B07F058541C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EB9CD13-A7EB-48EE-8D4D-6B07F058541C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EB9CD13-A7EB-48EE-8D4D-6B07F058541C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAD09569-D8F7-449A-ADF5-9E3C4CD61DB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAD09569-D8F7-449A-ADF5-9E3C4CD61DB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAD09569-D8F7-449A-ADF5-9E3C4CD61DB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAD09569-D8F7-449A-ADF5-9E3C4CD61DB7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {29E78239-0E1A-4AB8-B605-85EC7BCD0BFB}
+	EndGlobalSection
+EndGlobal
